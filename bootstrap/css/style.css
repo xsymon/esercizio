@@ -1,22 +1,46 @@
-.black-bg #custom-nav{
+/*Navbar Rules*/
+
+.black-bg#custom-nav{
     background-color: black;
     border-color: black;
 }
 
-.no-padding{
-    padding: 0% ;
-}
-
-.side-padding{
+.side-padding.navbar#custom-nav{
     padding-left: 10% ;
     padding-right: 10% ;
 }
 
-.tab-padding{
+/*Jumbotron Rules*/
+
+.jumbotron.side-padding {
+    padding-left: 10% ;
+    padding-right: 10% ;
+}
+
+.jumbotron.jumbotron-fluid.side-padding{
+    padding-left: 10% ;
+    padding-right: 10% ;
+}
+
+.jumbotron.tab-padding{
     padding-top: 5.5%;
     padding-bottom: 5.5%;
 }
 
-.margin-top{
-    margin-top: 3%;
+/*Container Rules*/
+
+.container-fluid.no-padding{
+    padding: 0% !important;
 }
+
+.container-fluid.side-padding{
+    padding-left: 10% ;
+    padding-right: 10% ;
+}
+
+.side-padding.margin-top{
+    margin-top: 3%;
+    padding-left: 10% ;
+    padding-right: 10% ;
+}
+
