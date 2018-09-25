@@ -1,15 +1,15 @@
-.black-bg{
+.black-bg #custom-nav{
     background-color: black;
     border-color: black;
 }
 
 .no-padding{
-    padding: 0% !important;
+    padding: 0% ;
 }
 
 .side-padding{
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+    padding-left: 10% ;
+    padding-right: 10% ;
 }
 
 .tab-padding{
